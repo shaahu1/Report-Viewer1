@@ -7,7 +7,7 @@
     "heroku-postbuild": " cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build && gh-pages -d build",
     "start": "node server.js",
     "server": "nodemon server.js",
-    "build": "webpack"
+    "build": "webpack --config=Scripts/config/webpack.prod.js"
     
   },
   "author": "",
