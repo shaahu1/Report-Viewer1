@@ -7,7 +7,9 @@
     "heroku-postbuild": " cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build && gh-pages -d build",
     "start": "node server.js",
     "server": "nodemon server.js",
-    "build": "webpack --config=Scripts/config/webpack.prod.js"
+    "dev": "webpack --config=Scripts/config/webpack.dev.js --watch",
+    "build": "webpack --config=Scripts/config/webpack.prod.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
