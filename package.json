@@ -8,9 +8,8 @@
     "start": "node server.js",
     "server": "nodemon server.js",
     "dev": "webpack --config=Scripts/config/webpack.dev.js --watch",
-    "build": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "heroku-prebuild": "npm install --dev"
+    "heroku-prebuild": "npm install --dev",
+    "build": "webpack --mode production"
   },
   "author": "",
   "license": "ISC",
