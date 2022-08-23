@@ -11,6 +11,7 @@
     "start": "node server.js",
     "server": "nodemon server.js",
     "heroku-prebuild": "npm install --dev",
+    "build": "rm -rf dist && webpack"
   },
   "author": "",
   "license": "ISC",
