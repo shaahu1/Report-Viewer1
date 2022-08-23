@@ -11,7 +11,7 @@
     "start": "node server.js",
     "server": "nodemon server.js",
     "heroku-prebuild": "npm install --dev",
-    "build": "webpack --mode production"
+    "build": "webpack"
   },
   "author": "",
   "license": "ISC",
